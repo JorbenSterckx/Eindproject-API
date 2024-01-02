@@ -21,7 +21,7 @@ Ik heb 4 POST endpoints gemaakt.
 3. De derde dient voor het aanmaken van een film.
 4. De vierde dient voor het aanmaken van een rating voor een film.
 #### Aanmaken van een user
-![Screen van postman voor het aanmaken van een gebruiker](/screens/aanmaken_gebruiker.png)
+![Screen van postman voor het aanmaken van een gebruiker](/screens/Aanmaken_gebruiker.png)
 
 #### Aanmaken van een film
 ![Screen van postman voor het aanmaken van een film](screens/Aanmaken_film.png)
