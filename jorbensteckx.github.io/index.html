@@ -1,1 +1,22 @@
+<html>
+<head>
+    <script defer src="https://unpkg.com/alpinejs@3.5.0/dist/cdn.min.js"></script>
+</head>
+<body>
+    <div x-data="{
+        movieData: null,
+        async getMovieData() {
+            this.movieData = await (await fetch('http://127.0.0.1:8000/movies')).json();
+        }
+    }">
+        <button x-on:click="getMovieData">Get Movie Data</button>
 
+        <div x-show="movieData">
+            <h2>Data returned:</h2>
+            <ul>
+                <li x-for="movie in movieData" x-text="movie.title"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
