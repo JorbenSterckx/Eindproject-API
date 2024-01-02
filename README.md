@@ -82,6 +82,16 @@ en daardoor veiliger kan werken.
 Via de post request van /users/ kan ik een gebruiker aanmaken
 en hierna kan ik zoals op de foto's hierboven inloggen.
 
+#### Postmanscreen
+Op postman kan ik op 2 manieren authorizeren
+1. Basic Auth
+Hier kan ik mijn username an password in van de gebruiker die ik heb aangemaakt
+![Screen 1 voor inloggen van postman](screens/1.png)
+   
+3. Bearer Token
+Hier kan ik de token in die ik heb gekregen bij het aanmaken van een gebruiker
+![Screen 2 voor inloggen van postman](screens/2.png)
+
 
 ### Testing
 In de root van mijn project heb ik een test file aangemaakt
